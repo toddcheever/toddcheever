@@ -3,15 +3,24 @@ layout: default
 title: Home
 ---
 
-<!-- One -->
+{%- if site.parts.size > 0 -%}
+    {%- for post in site.parts -%}
+			<section id="one" class="wrapper style2 special">
+				{{post.content}}
+			</section>
+		{%-endfor-%}
+{%-endif-%}
+
+<!-- One
 <section id="one" class="wrapper style2 special">
 	<header class="major">
-		<h2>We go to Iowa, Chicago<br />
-		and more</h2>
+		<h2>
+		We give rides to Galena, Cedar Rapids, <br/>quad cities, Iowa city, Chicago
+		</h2>
 	</header>
 </section>
 
-<!-- Two -->
+ Two
 <section id="two" class="wrapper">
 	<div class="inner alt">
 		<section class="spotlight">
@@ -37,3 +46,4 @@ title: Home
 		</section>
 	</div>
 </section>
+-->
