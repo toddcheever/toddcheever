@@ -1,0 +1,21 @@
+# Site settings
+title: TNT Transportation
+email: youremailaddress@gmail.com
+description: Todd's Taxi Service.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "toddcheever" # the base hostname & protocol for your site e.g. http://yvesespinosa.com
+#download_button_url: ""
+
+# Social settings
+#500px_url:
+#facebook_url:
+#github_url:
+#gitlab_url: 
+#googleplus_url: 
+#instagram_url:
+#linkedin_url: 
+#pinterest_url:
+#twitter_url:  
+
+# Build settings
+markdown: kramdown
